@@ -1,0 +1,43 @@
+// Breakpoints
+
+$breakpoints: (
+  'mobile--small': 320px,
+  'mobile': 768px,
+  'tablet': 1024px,
+  'desktop': 1280px,
+  'desktop--big': 1900px,
+  'desktop--superbig': 2400px
+);
+
+// Typography
+
+$font-primary: 'Open Sans', Arial, sans-serif;
+$font-secondary: 'Oxygen Mono', Arial, sans-serif;
+$font-size-base: 16px;
+
+// Colors
+
+$violet-color: #564797;
+$violet-light-color: #8970f7;
+$blue-color: #42e8e0;
+$pink-color: #e650c3;
+$green-color: #42e880;
+$gray-color: #6a7074;
+$yellow-color: #fcec34;
+$gray-dark-color: #293238;
+$gray-light-color: #e9eaeb;
+$gray-lighter-color: #f6f6f6;
+$gray-lightest-color: #f2f2f2;
+
+$text-color: $gray-dark-color;
+$link-color: $blue-color;
+
+
+// Layout
+
+$container-max-width: 1410px;
+
+
+
+
+

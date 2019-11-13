@@ -1,0 +1,19 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": false,
+        "shippedProposals": true, // to support spread operators
+        "forceAllTransforms": true
+      }
+    ]
+  ],
+  "plugins": [
+    "@babel/plugin-syntax-dynamic-import",
+    "transform-regenerator",
+    [
+      "@babel/transform-runtime"
+    ]
+  ]
+}

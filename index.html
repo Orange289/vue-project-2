@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <title>SixNines</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oxygen+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="app"></div>
+
+  <div class="svg-sprite hidden"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.5/lazysizes.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+
+  <!-- Inline SVG sprite -->
+  <script>
+    let spriteUrl;
+
+    if (window.location.pathname === '/') {
+      spriteUrl = './assets/sprite.svg';
+    } else if (window.location.pathname ===  '/clientsarea/payment-result/') {
+      spriteUrl = './../../assets/sprite.svg';
+    } else {
+      spriteUrl = './../assets/sprite.svg';
+    };
+
+    fetch(spriteUrl).then(res => {
+      return res.text();
+    }).then(data => {
+      document.querySelector('.svg-sprite').innerHTML = data;
+    });
+  </script>
+
+  <!-- ES6 promise polyfill -->
+  <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.js"></script>
+
+</body>
+
+</html>

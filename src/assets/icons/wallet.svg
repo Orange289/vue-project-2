@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+    <g id="wallet" transform="translate(-112.951 -3.805)">
+        <path id="Path_1165" d="M119.183 10.391V7.22a.915.915 0 0 1 .915-.914h2.6a.256.256 0 0 0 .256-.256V4.482a.677.677 0 0 0-.676-.677h-8.647a.677.677 0 0 0-.677.677v8.646a.677.677 0 0 0 .677.677h8.647a.677.677 0 0 0 .676-.677v-1.567a.256.256 0 0 0-.256-.256h-2.6a.915.915 0 0 1-.915-.914z" style="fill:currentColor" data-name="Path 1165"/>
+        <rect id="Rectangle_739" width="2.073" height="2" style="fill:currentColor" data-name="Rectangle 739" rx=".5" transform="translate(120.658 7.805)"/>
+    </g>
+</svg>
